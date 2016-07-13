@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
 
 project(minisat)
 
+set(CMAKE_CXX_FLAGS "-std=c++11 -Wall -pedantic -O2")
+
 #--------------------------------------------------------------------------------------------------
 # Configurable options:
 
